@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  min-height: 100%;
+  min-width: 100%;
+  margin: 0;
+  /* font-size: 62.5%; */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  min-height: 100vh;
+  min-width: 100%;
+  margin: 0;
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+  font-weight: 400;
+}
+
+.heading-1 {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.heading-1--light {
+  font-size: 4.5rem;
+  color: #f9f7f6;
+  line-height: 1;
+}
+
+.heading-2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.heading-2--light {
+  color: #f9f7f6;
+}
+
+.heading-3 {
+  font-size: 1.6rem;
+}
+
+.heading-4 {
+  font-size: 1rem;
+}
+
+.heading-4--light {
+  color: #f9f7f6;
+}

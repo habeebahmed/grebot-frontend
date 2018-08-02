@@ -1,0 +1,21 @@
+{
+  "name": "gre_bot_web",
+  "version": "1.0.0",
+  "description": "My stylish Nuxt.js project",
+  "author": "HM15",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "element-ui": "^2.4.4",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
